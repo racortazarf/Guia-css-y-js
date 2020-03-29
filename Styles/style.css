@@ -2,11 +2,12 @@
   font-family: sans-serif;
   text-align: left;
   font-size: 30px;
-  background: rgb(34, 193, 195);
+  background: rgb(224, 18, 18);
   background: linear-gradient(
-    0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(201, 253, 45, 1) 100%
+    107deg,
+    rgba(224, 18, 18, 1) 0%,
+    rgb(255, 252, 73) 50%,
+    rgba(69, 136, 252, 1) 100%
   );
   border: initial;
   line-height: 3cm;
@@ -17,21 +18,20 @@
   float: right;
 }
 #botonrepo {
-  box-shadow: inset 0px 1px 0px 0px #f5978e;
-  background: linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
-  background-color: #f24537;
+  box-shadow: inset 0px 1px 0px 0px #a4e271;
+  background: linear-gradient(to bottom, #3ecf19 5%, #77a809 100%);
+  background-color: #3ecf19;
   border-radius: 6px;
-  border: 1px solid #d02718;
+  border: 1px solid #74b807;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
-  font-family: sans-serif;
+  font-family: Arial;
   font-size: 15px;
   font-weight: bold;
   padding: 6px 24px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #810e05;
-  text-align: right;
+  text-shadow: 0px 1px 0px #528009;
 }
 .parrafos {
   font-size: 15px;
