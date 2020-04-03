@@ -18,6 +18,10 @@ EDWIN YESID CARREÑO MARTINEZ
 
 Codigo: 20132002600
 
+Cristian David Llanos Perez
+
+Codigo: 201510019600
+
 Marzo 2020
 
 - Recursos
