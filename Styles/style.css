@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  box-sizing: content-box;
 }
 .encabezado {
   font-family: sans-serif;
@@ -15,6 +16,10 @@ body {
   border: initial;
   line-height: 3cm;
 }
+/*.contenedor {
+  width: 98%;
+  margin: auto;
+}*/
 .titulosec {
   font-family: sans-serif;
   text-align: left;

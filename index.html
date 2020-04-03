@@ -4,120 +4,118 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Styles/style.css"> 
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimun-scale=1">
     <title>Guia de uso CSS y Javascript</title>
   </head>
   <body>
-    <h1 class="encabezado">
-      <div class="textoencabezado">
-        Manual de CSS y Javascript
-      </div>
-      <div>
-        <input
-          type="button"
-          onclick=" location.href='https://github.com/racortazarf/Guia-css-y-js' "
-          value="Ver repositorio"
-          name="boton"
-          id="botonrepo"
-        />
-      </div>
-    </h1>
-    <img
-      src="./Images/htcj.png"
-      alt="logos html css y java"
-      class="imagenestexto"
-    />
-    <p class="parrafos">
-      La guia de CSS y Javascript provee las caracteristicas de una hoja de
-      estilos en CSS para el diseño de paginas web de una manera mas
-      dinamica,ademas contiene una ligera introduccion a Javascript la cual
-      permite dar una optima funcionalidad a nuestra pagina.
-    </p>
-    <h2 class="titulosec">Que es CSS</h2>
-    <p class="parrafos">
-      Las siglas CSS (Cascading Style Sheets) significan «Hojas de estilo en
-      cascada» y parten de un concepto simple pero muy potente: aplicar estilos
-      (colores, formas, márgenes, etc...) a uno o varios documentos
-      (generalmente documentos HTML, páginas webs) de forma masiva.
-      <a href="Pages/ExampleCss.html" target="_blank">CSS</a>
+    <div class="contenedor">
+      <h1 class="encabezado">
+        <div class="textoencabezado">
+          Manual de CSS y Javascript
+        </div>
+        <div>
+          <input
+            type="button"
+            onclick=" location.href='https://github.com/racortazarf/Guia-css-y-js' "
+            value="Ver repositorio"
+            name="boton"
+            id="botonrepo"
+          />
+        </div>
+      </h1>
+      <img
+        src="./Images/htcj.png"
+        alt="logos html css y java"
+        class="imagenestexto"
+      />
+      <p class="parrafos">
+        La guia de CSS y Javascript provee las caracteristicas de una hoja de
+        estilos en CSS para el diseño de paginas web de una manera mas
+        dinamica,ademas contiene una ligera introduccion a Javascript la cual
+        permite dar una optima funcionalidad a nuestra pagina.
       </p>
-     </p>
-     <h2 class="titulosec">Que es JavaScript </h2>
+      <h2 class="titulosec">Que es CSS</h2>
       <p class="parrafos">
-     Con sus siglas JS (Javascript) es uno de los más potentes e importantes lenguajes 
-     de programación en la actualidad, por tres enfoques claros: es útil, práctico y 
-     está disponible en cualquier navegador web. 
-     JavaScript es creado por Brendan Eich y vio la luz en el año 1995 con el nombre de
-     LiveScript, que luego fue nombrado JavaScript, nace como un lenguaje sencillo 
-     destinado a añadir algunas características interactivas a las páginas web. Sin 
-     embargo, hoy en día ha crecido de manera acelerada y es el lenguaje de programación
-     que se utiliza en casi todos los sitios web en el mundo.
-     <a href="Pages/ExampleJs.html" target="_blank">JS</a>
-     </p>
-     <h2 class="tilutossec">Caracteristicas </h2>
-      <p class="parrafos">
-        • Es simple, no hace falta tener conocimientos avanzados de programación para 
-        aprender a manejar JavaScript y es recomendado por muchos expertos a la hora 
-        de encontrar un lenguaje para comenzar a programar.
-      </p>
-
-      <p class="parrafos">
-        • Maneja objetos dentro de nuestra página Web y sobre ese objeto podemos definir
-        diferentes eventos. Dichos objetos facilitan la programación de páginas interactivas,
-        a la vez que se evita la posibilidad de ejecutar comandos que puedan ser peligrosos 
-        para la máquina del usuario, tales como formateo de unidades, modificar archivos etc.
-      </p>
-
-      <p class="parrafos">
-       • Es dinámico, responde a eventos en tiempo real. Eventos como presionar un botón,
-         pasar el puntero del mouse sobre un determinado texto o el simple hecho de cargar 
-         la página o caducar un tiempo. Con esto podemos cambiar totalmente el aspecto de 
-         nuestra página al gusto del usuario, evitándonos tener en el servidor una página
-         para cada gusto, hacer cálculos en base a variables cuyo valor es determinado por 
-         el usuario, etc.
+        Las siglas CSS (Cascading Style Sheets) significan «Hojas de estilo en
+        cascada» y parten de un concepto simple pero muy potente: aplicar estilos
+        (colores, formas, márgenes, etc...) a uno o varios documentos
+        (generalmente documentos HTML, páginas webs) de forma masiva.
+        <a href="Pages/ExampleCss.html" target="_blank">CSS</a>
         </p>
-
-     </p>
-
-
-    <h3 class="titulosec">Hoja de estilo</h3>
-    <p class="parrafos">
-      Una hoja de estilo (style sheets) no es más que una colección de reglas
-      que afectan a la apariencia de un documento. Estas reglas se refieren al
-      modo en que aparecerá un documento en pantalla cuando el usuario utilice
-      un navegador o explorador gráfico, controlando por ejemplo el color, el
-      fondo, tipo de fuente, apariencia de los bordes, márgenes, alineación y
-      espacio entre caracteres. Las ventajas que ofrece la utilización de hojas
-      de estilo es que se diseñan de forma independiente al documento HTML y que
-      se se pueden aplicar, enteras o alguno de sus niveles, a los documentos
-      que se desee, facilitando la consistencia y homogeneidad en el diseño y la
-      imagen del sitio web.
-    </p>
-    <h4 class="titulosec">Agregar una hoja de estilos</h4>
-    <p class="parrafos">
-      Una vez tenga escrito el codigo HTML y desee agregar colores, formas,
-      márgenes, etc..., en la parte inicial del documento vera una seccion
-      llamada «head» «/head» la cual esta diseñada para agregar una serie de
-      etiquetas que complementan su documento, aqui es donde debe agregar su
-      hoja de estilos para que esta modifique la apariencia de esta pagina.
-      Existen varias maneras de hacerlo, pero la que recomendamos es la
-      siguiente:
-      <li class="parrafos">
-        Crear una carpeta donde va a guardar la o las hojas de estilo
-      </li>
-      <li class="parrafos">
-        Crear un archivo con el nombre de su hoja e incluir la extensión .css
-      </li>
-      <li class="parrafos">
-        En la seccion «head» «/head» vamos a indicarle al programa que se va a
-        incluir una hoja de estilos escribiendo «link rel="stylesheet"
-        href="Styles/style.css" /»
-        <ul>
-          * En la seccion "href" se va a indicar la ruta donde esta contenida
-          dicha hoja de estilo, indicando "nombre de la carpeta/nombre del
-          archivo.css".
-        </ul>
-      </li>
-    </p>
-    <script src="Scripts/fun.js"></script>
+      </p>
+      <h2 class="titulosec">Que es JavaScript </h2>
+        <p class="parrafos">
+      Con sus siglas JS (Javascript) es uno de los más potentes e importantes lenguajes 
+      de programación en la actualidad, por tres enfoques claros: es útil, práctico y 
+      está disponible en cualquier navegador web. 
+      JavaScript es creado por Brendan Eich y vio la luz en el año 1995 con el nombre de
+      LiveScript, que luego fue nombrado JavaScript, nace como un lenguaje sencillo 
+      destinado a añadir algunas características interactivas a las páginas web. Sin 
+      embargo, hoy en día ha crecido de manera acelerada y es el lenguaje de programación
+      que se utiliza en casi todos los sitios web en el mundo.
+      <a href="Pages/ExampleJs.html" target="_blank">JS</a>
+      </p>
+      <h2 class="tilutossec">Caracteristicas </h2>
+        <p class="parrafos">
+          • Es simple, no hace falta tener conocimientos avanzados de programación para 
+          aprender a manejar JavaScript y es recomendado por muchos expertos a la hora 
+          de encontrar un lenguaje para comenzar a programar.
+        </p>
+        <p class="parrafos">
+          • Maneja objetos dentro de nuestra página Web y sobre ese objeto podemos definir
+          diferentes eventos. Dichos objetos facilitan la programación de páginas interactivas,
+          a la vez que se evita la posibilidad de ejecutar comandos que puedan ser peligrosos 
+          para la máquina del usuario, tales como formateo de unidades, modificar archivos etc.
+        </p>
+        <p class="parrafos">
+        • Es dinámico, responde a eventos en tiempo real. Eventos como presionar un botón,
+          pasar el puntero del mouse sobre un determinado texto o el simple hecho de cargar 
+          la página o caducar un tiempo. Con esto podemos cambiar totalmente el aspecto de 
+          nuestra página al gusto del usuario, evitándonos tener en el servidor una página
+          para cada gusto, hacer cálculos en base a variables cuyo valor es determinado por 
+          el usuario, etc.
+          </p>
+       </p>
+      <h3 class="titulosec">Hoja de estilo</h3>
+      <p class="parrafos">
+        Una hoja de estilo (style sheets) no es más que una colección de reglas
+        que afectan a la apariencia de un documento. Estas reglas se refieren al
+        modo en que aparecerá un documento en pantalla cuando el usuario utilice
+        un navegador o explorador gráfico, controlando por ejemplo el color, el
+        fondo, tipo de fuente, apariencia de los bordes, márgenes, alineación y
+        espacio entre caracteres. Las ventajas que ofrece la utilización de hojas
+        de estilo es que se diseñan de forma independiente al documento HTML y que
+        se se pueden aplicar, enteras o alguno de sus niveles, a los documentos
+        que se desee, facilitando la consistencia y homogeneidad en el diseño y la
+        imagen del sitio web.
+      </p>
+      <h4 class="titulosec">Agregar una hoja de estilos</h4>
+      <p class="parrafos">
+        Una vez tenga escrito el codigo HTML y desee agregar colores, formas,
+        márgenes, etc..., en la parte inicial del documento vera una seccion
+        llamada «head» «/head» la cual esta diseñada para agregar una serie de
+        etiquetas que complementan su documento, aqui es donde debe agregar su
+        hoja de estilos para que esta modifique la apariencia de esta pagina.
+        Existen varias maneras de hacerlo, pero la que recomendamos es la
+        siguiente:
+        <li class="parrafos">
+          Crear una carpeta donde va a guardar la o las hojas de estilo
+        </li>
+        <li class="parrafos">
+          Crear un archivo con el nombre de su hoja e incluir la extensión .css
+        </li>
+        <li class="parrafos">
+          En la seccion «head» «/head» vamos a indicarle al programa que se va a
+          incluir una hoja de estilos escribiendo «link rel="stylesheet"
+          href="Styles/style.css" /»
+          <ul>
+            * En la seccion "href" se va a indicar la ruta donde esta contenida
+            dicha hoja de estilo, indicando "nombre de la carpeta/nombre del
+            archivo.css".
+          </ul>
+        </li>
+      </p>
+      <script src="Scripts/fun.js"></script>
+    </div>
   </body>
 </html>
