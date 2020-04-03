@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+.encabezado {
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 30px;
+  background: rgb(224, 18, 18);
+  background: linear-gradient(
+    107deg,
+    rgba(224, 18, 18, 1) 0%,
+    rgb(255, 252, 73) 50%,
+    rgba(69, 136, 252, 1) 100%
+  );
+  border: initial;
+  line-height: 3cm;
+}
