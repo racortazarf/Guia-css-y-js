@@ -16,9 +16,9 @@ Codigo: 20151003600.
 
 EDWIN YESID CARREÑO MARTINEZ
 
-Codigo: 20132002600
+Codigo: 201320002600
 
-Marzo 2020
+Fecha: 04_ 04_2020
 
 - Recursos
 
