@@ -21,6 +21,7 @@
         Para usar una función, debe definirla en algún lugar del ámbito desde el cual desea llamarla
         Toda función en JavaScript es un objeto Function. Ver
         <a href="Pages/ExampleFun.html" target="_black">Fun</a>
+      
         <p>
 
         <p class="parrafos"> 
@@ -33,12 +34,29 @@
          el valor predeterminado es undefined.
 
       </p>
+     
 <p class="parrafos">
   Los parámetros en la llamada a una función son los argumentos de la función. Los argumentos se pasan a las funciones por valor. 
   Si la función cambia el valor de un argumento, 
   este cambio no se refleja globalmente ni en la llamada de la función. 
   Sin embargo, las referencias a objetos también son valores, y son especiales: 
   si la función cambia las propiedades del objeto referenciado, ese cambio es visible fuera de la función.
+</p>
+<h5 class="titulo">Ejemplos </h5>
+<p class="parrafos">
+
+<img src="../Images/ejemplo.1.PNG" alt="ejemplo" class=".imagenestexto">
+
+</p>
+
+
+<p class="parrafos">
+  La palabra clave this no hace referencia a la función que está ejecutandose actualmente, 
+  por lo que debes referirte a los objetos Function por nombre, incluso dentro del cuerpo 
+  de la función. Como alternativa, puedes utilizar la propiedad arguments.
+  callee (que no se recomienda).
+</p>
+  
 </p>
 
   </body>
