@@ -34,11 +34,10 @@ body {
   height: auto;
   float: right;
 }
-.imagenestexto{
+.imagenestexto {
   width: 40%;
   height: auto;
   float: right;
-
 }
 #botonrepo {
   box-shadow: inset 0px 1px 0px 0px #a4e271;
@@ -105,6 +104,6 @@ body {
 }
 @media screen and (max-width: 370px) {
   .parrafos {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
