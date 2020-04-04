@@ -10,11 +10,11 @@
     <h1 class="encabezado">
         <div class="textoencabezado">
           Mas de CSS
-        </div>
+         </div>
           <img src="../Images/csslogo.png" alt="logo css" class="imagenestexto">
-        </h1>
-        <h2 class="titulosec">Que es CSS </h2>
-        <p class="parrafos">
+          </h1>
+         <h2 class="titulosec">Que es CSS </h2>
+         <p class="parrafos">
           Las hojas de estilos aparecieron poco después que el lenguaje de etiquetas SGML, alrededor 
           del año 1970. Desde la creación de SGML, se observó la necesidad de definir un mecanismo que
           permitiera aplicar de forma consistente diferentes estilos a los documentos electrónicos.
@@ -28,21 +28,134 @@
           en cuenta fueron la CHSS (Cascading HTML Style Sheets) y la SSP (Stream-based Style Sheet Proposal).
       
       </p> 
-    </h1>
-    <h3 class="titulosec">¿Cómo funciona el CSS? </h3>
-    <p class="parrafos">
-      CSS funciona mediante reglas que especifican exactamente el estilo de uno o varios elementos en una página.
-      Una regla posee tres elementos básicos que se expresan de la siguiente forma en el código:
-  </p> 
-  
-    
-      <h1 class="encabezado"></h1>
+      </h1>
+      <h3 class="titulosec">¿Cómo funciona el CSS? </h3>
       <p class="parrafos">
-        </div>
-          <img src="../Images/csslogo.png" alt="logo css" class="imagenestexto">
-        </h1>
+        CSS funciona mediante reglas que especifican exactamente el estilo de uno o varios elementos en una página.
+        Una regla posee tres elementos básicos que se expresan de la siguiente forma en el código:
+      
+        </p>
+         <p class="parrafos">
+         <img src="../Images/Cod_1.PNG" alt="Cod_1" class=".imagenestexto">
+         </p>
+
+    <p class="parrafos">
+      <img src="../Images/Cod_2.PNG" alt="Cod_2" class=".imagenestexto">
+    </p>
+
+    <p class="parrafos">
+      La propiedad y el valor tienen que estar separados por dos puntos y la declaración termina con un punto y coma.
+      Cualquier equivocación al usar estos signos de puntuación, provoca que la regla no funcione correctamente.
+      Algunos ejemplos simples:
+      – La siguiente regla especifica que todos los enlaces en la página deben tener el color rojo.
+    </p> 
+
+     <p class="parrafos">
+     <img src="../Images/Cod_3.PNG" alt="Cod_3" class=".imagenestexto">
+     </p>
+
+      <p class="parrafos">
+       – La siguiente regla especifica que el elemento que posee la identidad "big" debe usar un tamaño de 
+        fuente de 22 pixeles.
       </p> 
 
-    </body>
+      <p class="parrafos">
+        <img src="../Images/Cod_4.PNG" alt="Cod_4" class=".imagenestexto">
+        </p>
+
+        <p class="parrafos">
+            – La siguiente regla especifica que todos los elementos con la clase "neg", su texto debe de 
+            usar negritas.
+         </p> 
+         <p class="parrafos">
+          <img src="../Images/Cod_5.PNG" alt="Cod_5" class=".imagenestexto">
+          </p>
+
+          <p class="parrafos">
+              En una misma regla se puede usar varios selectores al mismo tiempo, separándolos con una coma.
+              ambién se pueden especificar varias propiedades con sus valores en una misma declaración.
+              Por ejemplo:
+           </p>
+
+           <p class="parrafos">
+            <img src="../Images/Cod_6.PNG" alt="Cod_6" class=".imagenestexto">
+            </p>
+
+            <p class="parrafos">
+             En la siguiente imagen  se puede datallar como esta estructurada una regla en CSS.
+           </p>
+
+           <p class="parrafos">
+            <img src="../Images/Cod_7.PNG" alt="Cod_7" class=".imagenestexto">
+            </p>
+
+            <p class="parrafos">
+                Los valores a emplear dependen de las propiedades.
+                En los ejemplos anteriores hemos usado para "color" valores hexadecimales (recomendados), 
+                pero también se pueden emplear sus nombres en HTML, por ejemplo: rojo = ff0000 o de forma 
+                abreviada f00. En las propiedades con valores de tamaño usamos pixeles (px), pero también
+               se puede definir usado emes (em), puntos (pt) o porcientos (%).
+           </p>
+
+           <h3 class="titulosec">¿Cómo se usa el CSS en las páginas?</h3>
+           <p class="parrafos">
+            Se puede aplicar CSS para formatear cualquier documento HTML, de tres formas:
+            <p class="parrafos">
+               1- Inline. Insertando las reglas directamente en los elementos usando la propiedad STYLE.
+               Por ejemplo:
+              </p>
+           </p>
+           <p class="parrafos">
+            <img src="../Images/Cod_8.PNG" alt="Cod_8" class=".imagenestexto">
+            </p>
+
+            <p class="parrafos">
+              NOTA: Esta técnica no es recomendada en la web moderna.
+            </p>
+
+            <p class="parrafos">
+              2- Una hoja de estilo interna, incluyendo las reglas dentro de un script,
+               situado en el área del HEAD de la página, de la siguiente forma:
+             </p>
+
+             <p class="parrafos">
+              <img src="../Images/Cod_9.PNG" alt="Cod_9" class=".imagenestexto">
+              </p>
+
+              <p class="parrafos">
+                3- Una hoja de estilo externa, enlazada a la página. Las reglas de 
+                  almacenan en un archivo de texto con la extensión CSS, de la siguiente forma:
+               </p>
+
+               <p class="parrafos">
+                <img src="../Images/Cod_10.PNG" alt="Cod_10" class=".imagenestexto">
+                </p>
   
+                <h3 class="titulosec">Ejemplos sencillos del uso del CSS</h3>
+
+                <h4 class="titulosec">Bloques de texto con CSS</h4>
+
+                <p class="parrafos">
+                   En las páginas de este sitio usamos un bloque de aclaración, al que 
+                   le asignamos la clase "blue" Se emplea en el estilo CSS la siguiente
+                   regla para definir su estilo:
+                 </p>
+
+                 <p class="parrafos">
+                  <img src="../Images/Cod_11.PNG" alt="Cod_11" class=".imagenestexto">
+                  </p>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
